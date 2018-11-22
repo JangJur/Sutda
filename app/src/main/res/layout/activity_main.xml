@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jur.sutda.MainActivity">
+
+    <TextView
+        android:id="@+id/t_v1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="#5C7148"
+        android:gravity="bottom|center_vertical|center_horizontal|center"
+        android:text="섯다: 동작그만!"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/im_V1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#5C7148"
+        app:srcCompat="@drawable/start" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        android:layout_weight="3"
+        android:background="#5C7148"
+        android:onClick="gameStart"
+        android:text="Game Start"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+</LinearLayout>
